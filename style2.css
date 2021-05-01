@@ -1,0 +1,58 @@
+/*===================================carousel======================*/
+.carousel-size {
+    height: 500px;
+    /* width: 500px; */
+  }
+
+
+
+
+/*========================footer===========================*/
+footer {
+	padding:20px;
+   background:black !important;
+   color:white
+}
+.icon-align{
+vertical-align: -webkit-baseline-middle
+}
+.icon-f{
+   margin: 5px;
+   margin-bottom: 0;
+   color: whitesmoke;
+}
+.sub-footer  {
+	background:#030303;
+   padding:30px;
+   color: floralwhite;
+   text-align: center;
+}
+
+footer h4 {
+	margin-bottom:30px;
+	text-transform:uppercase;
+	text-shadow:none;
+	font-weight:550;
+	color:#fff;
+}
+
+.mobile{
+  margin-left: -1cm;
+}
+
+.footer-mid{
+   margin-top:2cm;
+   margin-left:-0.5cm;
+   position: relative;
+}
+
+
+.form-group{
+  padding: 5px;
+  width: 80%;
+}
+
+.link-color{
+color:white;
+}
+/*------------------------------------------------------*/
