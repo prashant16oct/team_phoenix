@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.ico">
+    <title>LetsReview4u</title>
+
+    <link href="styles.css" rel="stylesheet">
+  <!-- <link href="css/signinCSS.css" rel="stylesheet" /> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <style>
+    body{
+      background-color: #222838;
+    }
+    .white:hover{
+        color:red !important;
+    }
+    .card-m{
+      height:20rem;
+      width:12rem;
+    }
+    .snow{
+        color:azure
+    }
+    .mar{
+        margin-left:10%;
+        margin-right:10%;
+        background-color: black;
+    }
+    .form-size{
+        width:1100px ;
+    }
+    .form-wd{
+        width:80%;
+        margin-right:0;
+        padding-right:0;
+    } 
+  </style>
+</head>
+<body>
+     <!--------------------------navbar--------------------->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="height:70px">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"> <img src="phoenixlogo.png" style="height: 65px; width: 65px;"></a>
+          <a class="navbar-brand" href="index.html">LetsReview4u</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link white" style="color:aliceblue;" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link white" style="color:aliceblue" href="#">Sign Up</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link white" style="color:aliceblue" href="#">Sign In</a>
+              </li>
+         
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" style="width: 300px;" type="search" placeholder="Search for Movies and Web Series" 
+              aria-label="Search">
+              <button class="btn btn-success" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav><br>
+  <!---------------------------------->
+  <div class="alert alert-dark" role="alert">
+    <h4 align="center">Sign Up Form</h4>
+  </div>
+
+<!--------------form----------------------->
+<div class="container mar form-size">
+    <img src="https://media1.giphy.com/media/f7YIDPhBly8Frf6eN1/giphy.gif?cid=ecf05e47srak1i47a9dmrz8yoi5d0vfl7mzsf3665rdla5hi&rid=giphy.gif&ct=g" style="float:right; width:300px;height:300px;">
+
+  <form class="snow form-wd">
+      <br>
+            <div class="row form-group">
+                <div class="col">
+      <label for="exampleInputEmail1" class="snow">First Name</label>
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+        <div class="col">
+      <label for="exampleInputEmail1" class="snow">Last Name</label>
+          <input type="text" class="form-control" placeholder="Last name">
+        </div>
+      </div>
+
+    <div class="form-group">
+      <label for="exampleInputEmail1" class="snow">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1" class="snow" >Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="*********">
+    </div>
+    <div class="form-group mb-2">
+        <label for="exampleInputPassword1" class="snow" >Mobile No. </label>
+        <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="+91">
+      </div>
+   
+      <div class="row">
+        <legend class="col-form-label col-sm-2 pt-0">Gender:</legend>
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+            <label class="form-check-label" for="gridRadios1">
+              Female
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            <label class="form-check-label" for="gridRadios2">
+              Male
+            </label>
+          </div>
+      </div>
+      </div>
+        <div class="row form-group form-check">
+        <button type="submit" class="btn btn-lg btn-primary">Submit</button><br><br>
+        </div>
+
+</form>
+  </div>
