@@ -1,0 +1,179 @@
+.b1 {
+  background-color: #0f171e;
+}
+
+.carousel-size {
+  height: 500px; /* width: 500px; */ max-height: 500px; max-width: 1100px; margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto;
+ }
+
+/*----------------cards------------------------*/
+.space{
+   margin:20px;
+   margin-left:25px;
+}
+
+.c-text{
+   font-size: 30px;
+   padding:0;
+   margin:0;
+   text-align: center;
+   color: whitesmoke
+}
+
+
+
+/*========================footer===========================*/
+footer {
+	padding:20px;
+   background:black !important;
+   color:white
+}
+.icon-align{
+vertical-align: -webkit-baseline-middle
+}
+.icon-f{
+   margin: 5px;
+   margin-bottom: 0;
+   color: whitesmoke;
+}
+.sub-footer  {
+	background:#030303;
+   padding-bottom:20px;
+   color: floralwhite;
+   text-align: center;
+}
+
+footer h4 {
+	margin-bottom:30px;
+	text-transform:uppercase;
+	text-shadow:none;
+	font-weight:550;
+	color:#fff;
+}
+
+.mobile{
+  margin-left: -1cm;
+}
+
+.footer-mid{
+   margin-top:2cm;
+   margin-left:-0.5cm;
+   position: relative;
+}
+
+
+.form-group{
+  padding: 5px;
+  width: 80%;
+}
+
+.link-color{
+color:white;
+}
+/*------------------------------------------------------*/
+
+ .image-edit{
+   width: 60%;
+   float: left;
+   margin-left: 70px;
+ }
+
+ .text-edit {
+   position: absolute;
+   margin-left: 20%;
+   color: white;
+ }
+
+ .text-edit1 {
+   position: absolute;
+   margin-left: 20%;
+   color:  #ffcc29;
+ }
+
+
+.frame-edit{
+  margin:2% 5% 2% 5%;
+}
+
+.title_headings {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  color: #f2f4f6;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #1b2530;
+  width: 17rem;
+}
+
+
+
+.card2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 300px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #1b2530;
+  width: 17rem;
+}
+
+.card3 {
+
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #1b2530;
+  width: 17rem;
+}
+
+.card4 {
+
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #1b2530;
+  width: 17rem;
+}
+
+.card5 {
+
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #1b2530;
+  width: 17rem;
+}
+
+
+
+.card-img-top {
+
+  height: 300px;
+  width: 300px;
+}
+
+
+.card-body {
+  color: #f2f4f6;
+}
+
+.card-text {
+
+  font-size: 14px;
+}
+
+.inHeading {
+    text-align: center;
+}
