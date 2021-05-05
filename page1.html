@@ -10,36 +10,51 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+<style>
+    a:hover{
+      color:red;
+    }
+    a{
+      text-decoration: none;
+    }
+    .white:hover{
+        color:red !important;
+    }
+</style>
 </head>
 
 <body class="b1">
-  <!--------------------------navbar--------------------->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="height:70px">
-    <div class="container-fluid">
+    <!--------------------------navbar--------------------->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="height:70px">
+      <div class="container-fluid">
       <a class="navbar-brand" href="index.html"> <img src="phoenixlogo.png" style="height: 65px; width: 65px;"></a>
-      <a class="navbar-brand" href="index.html">LetsReview4u</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link white" style="color:aliceblue;" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link white" style="color:aliceblue" href="#">Sign Up</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link white" style="color:aliceblue" href="#">Sign In</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" style="width: 300px;" type="search" placeholder="Search for Movies and Web Series" aria-label="Search">
-          <button class="btn btn-success" type="submit"><i class="fas fa-search"></i></button>
-        </form>
+        <a class="navbar-brand" href="index.html">LetsReview4u</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link white" style="color:aliceblue;" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link white" style="color:aliceblue" href="signup.html">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link white" style="color:aliceblue" href="#">Sign In</a>
+            </li>
+       
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" style="width: 300px;" type="search" placeholder="Search for Movies and Web Series" 
+            aria-label="Search">
+            <button class="btn btn-success" type="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+<!---------------------------------->
   <!---------------------------------->
   <div>
     <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -301,88 +316,115 @@
   <br>
 
   <!-------------------------------Footer--------------------------------------------->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 wow fadeInDown">
-          <h4>Contact Us</h4>
-          <div class="contact-info">
-            <ul type="none" class="mobile">
-              <li class="text">
-                <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-house-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
-                  <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
-                </svg>
-                B/60, New Delhi, India
-              </li>
+ 
+  <!-------------------------------Footer--------------------------------------------->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 wow fadeInDown">
+        <h4>Contact Us</h4>
+        <div class="contact-info">
+          <ul type="none" class="mobile">
+            <li class="text">
+              <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-house-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+              </svg>
+              B/60, New Delhi, India </li>
 
-              <li>
-                <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd"
-                    d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z" />
-                </svg>
-                +91 000 129900
-              </li>
+            <li>
+              <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z" />
+              </svg>
+              +91 000 129900</li>
 
-              <li>
-                <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-envelope-open-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.313l6.709 3.933L8 8.928l1.291.717L16 5.715V5.4a2 2 0 0 0-1.059-1.765l-6-3.2zM16 6.873l-5.693 3.337L16 13.372v-6.5zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516zM0 13.373l5.693-3.163L0 6.873v6.5z" />
-                </svg>
-                lets_review4u@gmail.com
-              </li>
-              <br>
-              <li>
-                Experience LetsReview4u app on mobile</li>
-              <li><button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
-                <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
-              </li><br>
-
-            </ul>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="contact-info footer-mid">
-            <ul>
-              <li><a class="link-color" href="#">Privacy Policy</a> </li>
-              <li><a class="link-color" href="#"> Feedback </a></li>
-              <li><a class="link-color" href="#">T&C</a></li>
-              <li><a class="link-color" href="#">FAQ</a></li>
-              <li>Keep in Touch</li>
-              <a class="icon-f" href="#"><i class="social-icon fab fa-facebook-f"></i></a>
-              <a class="icon-f" href="#"><i class="social-icon fab fa-twitter sp"></i></a>
-              <a class="icon-f" href="#"><i class="social-icon fab fa-instagram sp"></i></a>
-              <a class="icon-f" href="#"> <i class="social-icon fas fa-envelope sp"></i></a>
-            </ul>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="compact">
-            <h4>Newsletter Registration</h4>
-            <p>Subscribe today to receive the latest Corpboot news via email. You may unsubscribe from this service at any time</p>
-            <form class="form-inline">
-              <div class="form-group">
-                <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter your Email...">
-                <br>
-              </div>
-              <button type="submit" class="btn btn-primary subscribe_button">Subscribe</button>
-            </form>
-          </div>
+            <li>
+              <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-envelope-open-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.313l6.709 3.933L8 8.928l1.291.717L16 5.715V5.4a2 2 0 0 0-1.059-1.765l-6-3.2zM16 6.873l-5.693 3.337L16 13.372v-6.5zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516zM0 13.373l5.693-3.163L0 6.873v6.5z" />
+              </svg>
+              lets_review4u@gmail.com</li>
+            <br>
+            <li>
+              Experience LetsReview4u app on mobile</li>
+            <li><button type="button" class="btn btn-dark btn-md download-button"><i class="fab fa-google-play"></i> Download</button>
+              <button type="button" class="btn btn-dark btn-md download-button"><i class="fab fa-apple"></i> Download</button>
+            </li><br>
+          
+          </ul>
         </div>
       </div>
-      <hr>
+
+      <div class="col-md-3">
+        <div class="contact-info footer-mid">
+          <ul>
+            <li><a class="link-color" href="#">Privacy Policy</a> </li>
+            <li><a class="link-color" href="#"> Feedback </a></li>
+            <li><a class="link-color" href="#">T&C</a></li>
+            <li><a class="link-color" href="#">FAQ</a></li>
+            <li>Keep in Touch</li>
+            <a class="icon-f" href="#"><i class="social-icon fab fa-facebook-f"></i></a>
+            <a class="icon-f" href="#"><i class="social-icon fab fa-twitter sp"></i></a>
+            <a class="icon-f" href="#"><i class="social-icon fab fa-instagram sp"></i></a>
+            <a class="icon-f" href="#"> <i class="social-icon fas fa-envelope sp"></i></a>
+          </ul>
+        </div>
+      </div>
+
+<!------------------>
+<div class="col-md-3">
+<div class="contact-info">
+  <div class="wow fadeInDown">
+    <!-- <h4 style="text-align: justify;">Admins</h4> -->
+  <ul type="none">
+    <h4 style="text-align: justify;">Admins</h4>
+
+    <li>
+      <a class="icon-f" href="https://www.instagram.com/prashant16_10/"><i class="social-icon fab fa-instagram sp"></i></a>
+      <a class="link-color admin" href="https://www.instagram.com/prashant16_10/">Prashant Sharma</a> </li>
+    <li>
+      <a class="icon-f" href="https://www.instagram.com/anshuman.dhiman/"><i class="social-icon fab fa-instagram sp"></i></a>
+      <a class="link-color admin" href="https://www.instagram.com/anshuman.dhiman/">Anshuman Dhiman</a></li>
+    <li>
+      <a class="icon-f" href="https://www.instagram.com/arya_vats10/"><i class="social-icon fab fa-instagram sp"></i></a>
+      <a class="link-color admin" href="https://www.instagram.com/arya_vats10/">Arya Vats</a></li>
+    <li>
+      <a class="icon-f" href="https://www.instagram.com/vansh7_2001/"><i class="social-icon fab fa-instagram sp"></i></a>
+      <a class="link-color admin" href="https://www.instagram.com/vansh7_2001/">Vansh Mudgal</a></li>
+  
+  </ul>
+</div>
+</div>
+</div>
+
+<!------------------->
+
+      <div class="col-md-3">
+        <div class="compact">
+          <h4>Newsletter Registration</h4>
+          <p>Subscribe today to receive the latest Corpboot news via email. You may unsubscribe from this service at any time</p>
+          <form class="form-inline">
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter your Email...">
+            </div>
+            <button type="submit" style="margin:1vw; margin-left: 0;" class="btn btn-primary btn-sm subscribe_button">Subscribe</button>
+          </form>
+        </div>
+      </div>
     </div>
-  </footer>
+    <hr>     
+  </div>
+</footer>
 
-  <div class="sub-footer" style="background-image: url(img/black.png); background-size: cover;">
-    <div class="col-md-sm">
-      <div class="copyright sub-footer-text">
-        &copy; LetsReview4u. All Rights Reserved.
-      </div>
+<div class="sub-footer" style="background-image: url(img/black.png); background-size: cover;">
+  <div class="col-md-sm">
+    <div class="copyright sub-footer-text">
+      &copy; LetsReview4u. All Rights Reserved.
     </div>
   </div>
+</div>
+<!----------------------------------------------------->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>

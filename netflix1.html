@@ -22,39 +22,46 @@
     .white:hover{
         color:red !important;
     }
+    a{
+      text-decoration: none;
+    }
+    a:hover{
+      color:red;
+    }
 </style>
 </head>
 
 <body class="b1">
 
-   <!--------------------------navbar--------------------->
-   <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="height:70px">
-    <div class="container-fluid">
-    <a class="navbar-brand" href="index.html"> <img src="phoenixlogo.png" style="height: 65px; width: 65px;"></a>
-      <a class="navbar-brand" href="index.html">LetsReview4u</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link white" style="color:aliceblue;" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link white" style="color:aliceblue" href="signup.html">Sign Up</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link white" style="color:aliceblue" href="#">Sign In</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" style="width: 300px;" type="search" placeholder="Search for Movies and Web Series" 
-          aria-label="Search">
-          <button class="btn btn-success" type="submit"><i class="fas fa-search"></i></button>
-        </form>
+    <!--------------------------navbar--------------------->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="height:70px">
+      <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"> <img src="phoenixlogo.png" style="height: 65px; width: 65px;"></a>
+        <a class="navbar-brand" href="index.html">LetsReview4u</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link white" style="color:aliceblue;" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link white" style="color:aliceblue" href="signup.html">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link white" style="color:aliceblue" href="#">Sign In</a>
+            </li>
+       
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" style="width: 300px;" type="search" placeholder="Search for Movies and Web Series" 
+            aria-label="Search">
+            <button class="btn btn-success" type="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 <!---------------------------------->
   <!---------------------------------->
 
@@ -394,10 +401,11 @@
 
 </section>
  <!-------------------------------Footer--------------------------------------------->
- <footer>
+  <!-------------------------------Footer--------------------------------------------->
+<footer>
   <div class="container">
     <div class="row">
-      <div class="col-md-4 wow fadeInDown">
+      <div class="col-md-3 wow fadeInDown">
         <h4>Contact Us</h4>
         <div class="contact-info">
           <ul type="none" class="mobile">
@@ -424,15 +432,15 @@
             <br>
             <li>
               Experience LetsReview4u app on mobile</li>
-            <li><button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
-              <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+            <li><button type="button" class="btn btn-dark btn-md download-button"><i class="fab fa-google-play"></i> Download</button>
+              <button type="button" class="btn btn-dark btn-md download-button"><i class="fab fa-apple"></i> Download</button>
             </li><br>
           
           </ul>
         </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="contact-info footer-mid">
           <ul>
             <li><a class="link-color" href="#">Privacy Policy</a> </li>
@@ -448,7 +456,35 @@
         </div>
       </div>
 
-      <div class="col-md-4">
+<!------------------>
+<div class="col-md-3">
+<div class="contact-info">
+  <div class="wow fadeInDown">
+    <!-- <h4 style="text-align: justify;">Admins</h4> -->
+  <ul type="none">
+    <h4 style="text-align: justify;">Admins</h4>
+
+    <li>
+      <a class="icon-f" href="https://www.instagram.com/prashant16_10/"><i class="social-icon fab fa-instagram sp"></i></a>
+      <a class="link-color admin" href="https://www.instagram.com/prashant16_10/">Prashant Sharma</a> </li>
+    <li>
+      <a class="icon-f" href="https://www.instagram.com/anshuman.dhiman/"><i class="social-icon fab fa-instagram sp"></i></a>
+      <a class="link-color admin" href="https://www.instagram.com/anshuman.dhiman/">Anshuman Dhiman</a></li>
+    <li>
+      <a class="icon-f" href="https://www.instagram.com/arya_vats10/"><i class="social-icon fab fa-instagram sp"></i></a>
+      <a class="link-color admin" href="https://www.instagram.com/arya_vats10/">Arya Vats</a></li>
+    <li>
+      <a class="icon-f" href="https://www.instagram.com/vansh7_2001/"><i class="social-icon fab fa-instagram sp"></i></a>
+      <a class="link-color admin" href="https://www.instagram.com/vansh7_2001/">Vansh Mudgal</a></li>
+  
+  </ul>
+</div>
+</div>
+</div>
+
+<!------------------->
+
+      <div class="col-md-3">
         <div class="compact">
           <h4>Newsletter Registration</h4>
           <p>Subscribe today to receive the latest Corpboot news via email. You may unsubscribe from this service at any time</p>
@@ -456,7 +492,7 @@
             <div class="form-group">
               <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter your Email...">
             </div>
-            <button type="submit" class="btn btn-primary">Subscribe</button>
+            <button type="submit" style="margin:1vw; margin-left: 0;" class="btn btn-primary btn-sm subscribe_button">Subscribe</button>
           </form>
         </div>
       </div>
@@ -472,7 +508,7 @@
     </div>
   </div>
 </div>
-
+<!---------------------------->
 
 </body>
 
