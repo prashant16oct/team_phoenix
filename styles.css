@@ -93,4 +93,11 @@ text-decoration: none;
    font-size: large;
    text-align:left;
 }
+.download-button{
+   margin:auto;
+   margin-right: 1vw;
+}
+.download-button:hover{
+   transform:scale(1.1);
+}
 /*------------------------------------------------------*/
