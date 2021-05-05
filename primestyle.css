@@ -3,14 +3,10 @@
 }
 
 .carousel-size {
-  height: 500px;
-  /* width: 500px; */
-  max-height: 500px;
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+  max-height: 1920px;
+  max-width: 1080px;
+  margin: auto;
+
 }
 
 /*----------------cards------------------------*/
@@ -70,7 +66,6 @@ footer h4 {
 }
 
 .form-group {
-  padding: 5px;
   width: 80%;
 }
 
@@ -78,33 +73,44 @@ footer h4 {
   color: white;
 }
 
+.subscribe_button {
+  margin-right: 10px;
+}
 /*------------------------------------------------------*/
+
+
+.link {
+  text-decoration: none;
+}
+
 .image-edit {
-  width: 60%;
+
+  width: 250px;
   float: left;
-  margin-left: 70px;
+  margin-left: 20%;
+
 }
 
 .text-edit {
   position: absolute;
-  margin-left: 21%;
+  margin-left: 22%;
   color: white;
 }
 
 .text-edit1 {
   position: absolute;
-  margin-left: 21%;
+  margin-left: 22%;
   color: #ffcc29;
 }
 
 .frame-edit {
-  margin: 2% 5% 2% 5%;
+  display: block;
+  margin: 2% auto 2% auto;
+
 }
 
 .title_headings {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 10px;
+  margin-left: 3%;
   color: #f2f4f6;
 }
 
@@ -114,53 +120,12 @@ footer h4 {
 
 .card1 {
   transition: transform 0.2s ease;
-  margin-left: 10px;
-  margin-right: 5px;
-  margin-bottom: 10px;
+  margin: auto;
   border-radius: 10px;
   background-color: #1b2530;
   width: 17rem;
 }
 
-.link {
-  text-decoration: none;
-}
-
-.card2 {
-  transition: transform 0.2s ease;
-  margin-right: 300px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  background-color: #1b2530;
-  width: 17rem;
-}
-
-.card3 {
-  transition: transform 0.2s ease;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  background-color: #1b2530;
-  width: 17rem;
-}
-
-.card4 {
-  transition: transform 0.2s ease;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  background-color: #1b2530;
-  width: 17rem;
-}
-
-.card5 {
-  transition: transform 0.2s ease;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  background-color: #1b2530;
-  width: 17rem;
-}
 
 .card-img-top {
   height: 300px;
@@ -176,22 +141,6 @@ footer h4 {
 }
 
 .card1:hover {
-  transform: scale(1.1);
-}
-
-.card2:hover {
-  transform: scale(1.1);
-}
-
-.card3:hover {
-  transform: scale(1.1);
-}
-
-.card4:hover {
-  transform: scale(1.1);
-}
-
-.card5:hover {
   transform: scale(1.1);
 }
 
